@@ -32,7 +32,7 @@ const links: linkProps[] = [
     },
     {
         name: 'My List',
-        href: 'home/user/list'
+        href: '/home/user/list'
     }
 ]
 
