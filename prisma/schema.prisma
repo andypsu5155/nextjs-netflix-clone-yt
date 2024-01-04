@@ -66,10 +66,10 @@ model Movie {
 }
 
 model WatchList {
-  id String @id @default(uuid())
+  id     String @id @default(uuid())
   userId String
 
-  Movie Movie? @relation(fields: [movieId], references: [id])
+  Movie   Movie? @relation(fields: [movieId], references: [id])
   movieId Int?
 }
 
